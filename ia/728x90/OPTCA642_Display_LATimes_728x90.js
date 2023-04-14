@@ -491,10 +491,10 @@ if (reversed == null) { reversed = false; }
 
 	// logo
 	this.instance = new lib.LOGO();
-	this.instance.setTransform(630.65,129.45);
+	this.instance.setTransform(643.65,116.45);
 	this.instance.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:45.45,alpha:1},10,cjs.Ease.quadOut).wait(349));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({y:32.45,alpha:1},10,cjs.Ease.quadOut).wait(349));
 
 	// HEAD
 	this.instance_1 = new lib.HEAD();
@@ -548,7 +548,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPTCA642_Display_LATimes_728x90_atlas_P_1.png?1681509749884", id:"OPTCA642_Display_LATimes_728x90_atlas_P_1"}
+		{src:"images/OPTCA642_Display_LATimes_728x90_atlas_P_1.png?1681513834074", id:"OPTCA642_Display_LATimes_728x90_atlas_P_1"}
 	],
 	preloads: []
 };
