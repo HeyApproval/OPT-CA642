@@ -411,24 +411,24 @@ if (reversed == null) { reversed = false; }
 
 	// logo
 	this.instance = new lib.LOGO();
-	this.instance.setTransform(279.05,17.05,0.5,0.5,0,0,0,0.1,0.1);
+	this.instance.setTransform(279.05,19.45,0.5,0.5,0,0,0,0.1,0.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(359));
 
 	// HEAD
 	this.instance_1 = new lib.HEAD();
-	this.instance_1.setTransform(3,94.7,1,1,0,0,0,0,38);
+	this.instance_1.setTransform(3,95.7,1,1,0,0,0,0,38);
 	this.instance_1.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:40.4,alpha:1},10,cjs.Ease.quadOut).wait(349));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({y:41.4,alpha:1},10,cjs.Ease.quadOut).wait(349));
 
 	// SUB
 	this.instance_2 = new lib.SUB();
-	this.instance_2.setTransform(148.5,67.7,1,1,0,0,0,144.5,13.6);
+	this.instance_2.setTransform(148.5,69.1,1,1,0,0,0,144.5,13.6);
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(51).to({_off:false},0).to({y:37.4,alpha:1},10,cjs.Ease.quadOut).wait(298));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(51).to({_off:false},0).to({y:38.8,alpha:1},10,cjs.Ease.quadOut).wait(298));
 
 	// bkgd blue
 	this.shape_1 = new cjs.Shape();
@@ -440,7 +440,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(159.5,24.5,161,59.400000000000006);
+p.nominalBounds = new cjs.Rectangle(159.5,24.5,161,60.400000000000006);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
